@@ -1,0 +1,16 @@
+div > a{
+	width:450px;
+	display: flex;
+}
+
+div > a > img{
+	width: 150px;
+	height: 100px;
+	padding: .5rem;
+}
+
+div > a > div{
+	display: flex;
+	flex-direction: column;
+	padding: .5rem;
+}

@@ -1,0 +1,39 @@
+.menu-bar{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	padding: 0 3rem;
+}
+
+.menu-bar > div{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a.logo{
+	width: 9vw;
+	height: 9vh;
+}
+
+a.logo > img{
+	height: 100%;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+
+ul > li{
+	list-style: none;
+	padding: 1rem;
+}
